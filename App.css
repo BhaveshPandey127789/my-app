@@ -1,0 +1,107 @@
+body {
+  background:white;
+  
+}
+
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+.main-section {
+  background: rgb(103, 182, 209);
+  padding-top: 3%;
+  
+  border-radius: 10%;
+  max-width: 700px;
+  width: 700px;
+  height: 630px;
+  margin: 20px ;
+  align-items: center;
+  position: centre;
+}
+
+.clock-holder {
+  padding-top: 5px;
+  width: 100%; 
+  background: white;
+  margin: 30px auto;
+  position: centre;
+  align-self: center;
+}
+
+
+.stopwatch {
+
+  font-size:x-large;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 60px 10px;
+  text-align: center;
+  text-emphasis-position: 5%;
+}
+.stopwatch span{
+  background:white;
+  color: #000000;
+  display:inline-block;
+  font-family:arial,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 42px;
+  padding: 15px;
+  border-radius: 25px;
+  width: 70px;
+}
+
+.stopwatch .stopwatch-btn {
+  background: #fff;
+  margin-top: 15px;
+  margin-left: 5px;
+  border:shadow;
+  padding: 15px 20px;
+  font-size: 15px;
+  font-family:geneva  ;
+  text-transform: uppercase;
+  width: 100px;
+  transition: background 1s;
+  cursor:mouse;
+}
+.stopwatch .stopwatch-btn-red{
+  border: 2px solid #170202;
+  color: black;
+}
+.stopwatch .stopwatch-btn-yel{
+  border: 2px solid #0e0d0c;
+  color: black;
+}
+.stopwatch .stopwatch-btn-dis{
+  border: 2px solid black;
+  font-style: normal;
+  opacity: 0.6;
+  cursor: not-allowed;
+  color: black;
+}
+.stopwatch .stopwatch-btn-gre{
+  border: 2px solid black;
+  font-weight: 200;
+  text-decoration-style: solid;
+  text-size-adjust: 3px;
+  font-style:italic;
+   
+  color: #010808;
+}
+.stopwatch .stopwatch-btn-red:hover {
+  background:lightgray;
+  border: 3px solid black;
+  color: black;
+}
+.stopwatch .stopwatch-btn-yel:hover {
+  background:lightgray;
+  border: 3px solid rgb(12, 7, 7);
+  color: black;
+}
+.stopwatch .stopwatch-btn-gre:hover {
+  background:lightgray;
+  border: 3px solid black;
+  color: black;
+}
